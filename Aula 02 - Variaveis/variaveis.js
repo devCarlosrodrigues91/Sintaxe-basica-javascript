@@ -30,12 +30,11 @@ console.log(constante)
 
 // Escopos
 
-// Escopo Global
+// Escopo Global, declarando a variavel no topo do codigo ela fica disponivel para todo o codigo.
 var escoboglobal = 'global'
 console.log(escoboglobal)
 
-//Escopo Local
-
+//Escopo Local, Declarando ela em um local espefico ela serve somente naquele local.
 function escopolocal(){
     let escopolocalint = 'Local'
     console.log(escopolocalint)
