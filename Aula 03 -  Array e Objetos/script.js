@@ -5,7 +5,7 @@ let array = ['string', 1, false]
 console.log(array)*/
 
 //Pode guardar todo tipo de dados
-let array = ['string',1, true,['array1'],['array2'],['array3'],['array4']];
+//let array = ['string',1, true,['array1'],['array2'],['array3'],['array4']];
 //console.log(array)
 
 // Manipulando arrays
@@ -40,4 +40,15 @@ console.log(array)*/
 /*let novoarray = array.slice(0,3)
 console.log(novoarray)*/
 
-//minuto 10:45
+// Objetos
+
+ let object = {String: 'string',Number:123,Boolean: false, array:'array', objectinterno:{objectinterno:'objetointerno'}}
+ //console.log(object)
+ /*var boo = object.Boolean
+ console.log(boo)
+  var arrayinterno = object.array
+  console.log(arrayinterno)*/
+
+  var varobjeto = {cor:'azul',tamanho:2,funcao:tomarcafe()}
+
+  console.log(varobjeto.tomarcafe())
